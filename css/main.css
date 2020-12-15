@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap");
+.navbar {
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 30px;
+}
+.navbar .nav-items {
+  display: flex;
+}
+.navbar .nav-items a {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #222222;
+}
+.navbar .nav-items .active {
+  background-color: #110ACD;
+  padding: 3px;
+  color: wheat;
+  border-radius: 2px;
+}
+
+.showCase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  width: 990px;
+}
+.showCase .hero-text {
+  flex-basis: 30%;
+}
+.showCase .hero-text h1 {
+  font-weight: 400;
+  padding: 10px;
+}
+.showCase .hero-text .download-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle-02 {
+  width: 1440px;
+  height: 1808px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.rectangle-02 .section-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.rectangle-02 .section-01 .section-01-text {
+  flex-basis: 20%;
+  padding: 50px;
+  margin-left: 30px;
+}
+.rectangle-02 .section-01 .section-01-text h1 {
+  font-size: 3rem;
+}
+.rectangle-02 .section-01 .section-01-text p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.rectangle-02 .section-01 .section-01-text .section-01-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 116px;
+}
+.rectangle-02 .section-01 .section-01-text .section-01-button svg {
+  padding: 15px;
+}
+.rectangle-02 .section-01 .section-01-text .section-01-button span {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.rectangle-02 .section-02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 440px;
+}
+.rectangle-02 .section-02 .section-02-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.rectangle-02 .section-02 .section-02-content h1 {
+  font-size: 3rem;
+}
+.rectangle-02 .section-02 .section-02-content p {
+  font-size: 2rem;
+  margin: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+.rectangle-02 .section-02 .section-02-content svg {
+  width: 100px;
+  margin: 0 20px;
+}
+
+*,
+::after ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.6;
+  font-size: 1.3rem;
+}
+
+.content-container {
+  max-width: 1440px;
+  height: 3000px;
+  margin: 0 auto;
+  background-color: #ffbaa1;
+}
+
+/*# sourceMappingURL=main.css.map */

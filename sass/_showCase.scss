@@ -1,0 +1,46 @@
+.navbar{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 30px;
+    .nav-items{
+        display: flex;
+        a{
+            margin: 20px;
+            text-decoration: none;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: $primary-clr;
+        }
+        .active{
+            background-color: #110ACD;
+            padding: 3px;
+            color: wheat;
+            border-radius: 2px;
+        }
+    }
+}
+.showCase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    width: 990px;
+    .hero-text{
+        flex-basis: 30%;
+        h1{
+            font-weight: 400;
+            padding: 10px;
+        }
+        .download-icons{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+        }
+    }
+}
